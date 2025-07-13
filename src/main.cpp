@@ -1,11 +1,12 @@
 #include <iostream>
-#include "Perro.h"
+#include "Car.h"
 
 int main() {
-  Perro miPerro("firulais");
-  miPerro.ladrar();
-  miPerro.renombrar("Rock");
-  miPerro.ladrar();
-  std::cout << "Trading engine started\n";
+  Car car("Toyota", "A-9", 100);
+  car.showStatus();
+  car.accelerate(20);
+  car.showStatus();
+  car.brake(40);
+  car.showStatus();
   return 0;
 }
