@@ -1,12 +1,8 @@
-#include <iostream>
-#include "Car.h"
+#include "Person.h"
 
 int main() {
-  Car car("Toyota", "A-9", 100);
-  car.showStatus();
-  car.accelerate(20);
-  car.showStatus();
-  car.brake(40);
-  car.showStatus();
+  int v = 20;
+  Person p("Alvaro", v);
+  p.introduce();
   return 0;
 }
