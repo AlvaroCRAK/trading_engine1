@@ -12,7 +12,7 @@ include_directories(${CURL_INCLUDE_DIRS} include/)
 
 # Agregar ejecutable
 add_executable(trading_engine src/main.cpp src/market_data.cpp 
-  src/Person.cpp)
+  src/Bank.cpp)
 
 # Enlazar librerías
 target_link_libraries(trading_engine ${CURL_LIBRARIES})
